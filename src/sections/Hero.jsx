@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import { shoes, statistics } from "../constants";
 import { Button, ShoeCard } from "../components";
 import { bigShoe1 } from "../assets/images";
@@ -19,7 +18,7 @@ const Hero = () => {
         </p>
 
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-          <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
+          <span className="xl:bg-white xl:whitespace-nowrap relative z-0 md:z-10  pr-10">
             The New Arrival
           </span>
           <br />

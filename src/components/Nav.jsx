@@ -71,9 +71,9 @@ const Nav = () => {
         <div
           className={`${
             openNavigation ? "block" : "hidden"
-          } lg:hidden bg-white shadow-2xl text-lg absolute z-50 top-24 left-0 w-full h-screen p-2 space-y-9`}
+          } lg:hidden bg-white shadow-3xl border-r border-black text-lg absolute z-50 top-24 left-0 w-full h-screen p-2 space-y-9`}
         >
-          <ul className="flex-1 flex flex-col text-gray-950 font-semibold justify-center items-center gap-9 py-24 space-y-14">
+          <ul className="flex-1 flex flex-col text-gray-950 font-bold justify-center items-center gap-9 py-24 space-y-14">
             {navLinks.map((item) => (
               <li key={item.label}>
                 <a
